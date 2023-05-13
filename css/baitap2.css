@@ -1,0 +1,54 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 200px;
+  /* thêm ảnh nền cho container */
+  /* căn giữ nội dung */
+  text-align: center;
+  color: white;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.615);
+}
+.banner {
+  background-image: url("https://4.bp.blogspot.com/-895gxED6n3U/WEZvHR2BgSI/AAAAAAAAHRM/gpMUR0lm_9Amgg44GkAv1L5IMuzT5godwCLcB/s1600/D%25C3%25B9%2Bh%25C3%25ACnh%2Bchim%252C%2Bheo%252C%2Bg%25E1%25BA%25A5u%2Bc%25E1%25BB%25B1c%2B%25C4%2591%25C3%25A1ng%2By%25C3%25AAu.jpg"); /* tạo bộ đẹm */
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container .title {
+  font-size: 16px;
+  padding: 25px;
+}
+.container .text {
+}
+.container .btn {
+  margin-top: 20px;
+  background-color: red;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px black;
+  color: white;
+}
+
+.range {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(19, 19, 16);
+}
+.range .item {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+}

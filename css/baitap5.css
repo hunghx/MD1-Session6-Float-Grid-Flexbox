@@ -1,0 +1,55 @@
+* {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  padding: 20px 30px;
+}
+.container .form {
+  background-color: #f2f2f2;
+  padding: 30px 35px;
+}
+.form .title {
+  text-align: center;
+}
+.form .group-input {
+  background-color: pink;
+  padding: 15px 0px 15px 30px;
+}
+.group-input .form-item {
+  margin-bottom: 10px;
+}
+.group-input .form-item label {
+  display: block;
+}
+.group-input .form-item input {
+  border: none;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: #f2f2f2;
+}
+.group-input button {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(22, 38, 209);
+  border: none;
+  /* display: none;// xoá
+  visibility: hidden;// ẩn đi */
+}
+.group-btn {
+  margin-top: 10px;
+  text-align: center;
+}
+.group-btn .btn {
+  margin: 0 5px;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 18px;
+  background-color: black;
+  cursor: pointer;
+}
+.group-btn .btn:hover {
+  opacity: 0.6;
+  transform: scale(1.5);
+}
